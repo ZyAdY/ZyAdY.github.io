@@ -57,6 +57,9 @@ function speakThis(message) {
   } else if (message.includes("how are you")) {
     const finalText = "I am fine boss tell me how can i help you";
     speech.text = finalText;
+  } else if (message.includes("who are you")) {
+    const finalText = "I am Inertia I Maded by The Best One In The World Zyad Yasser The Genius The Best One In The World زياد ياسر";
+    speech.text = finalText;
   } else if (message.includes("name")) {
     const finalText = "My name is Inertia";
     speech.text = finalText;
